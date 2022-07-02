@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav{
+  background: #F55A5A;
+  height: 55px;
+  padding: 5px;
+}
+.nav-title{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem ;
+  justify-content: center;
+  color: white;
+}
+
+
+/* cards styles */
+section{
+  padding: 50px;
+}
+
+.cards{
+  display:flex ;
+  padding: 20px 0;
+}
+
+.card__img{
+    width: 125px;
+    height: 168px;
+    border-radius: 6px;
+}
+
+.card__list{
+  padding: 10px 20px;
+}
+
+.card__location,
+.card__title,
+.card__date,
+.card__info{
+  margin: 0;
+}
+
+.card__location{
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.google-maps{
+  color: rgb(176, 169, 169);
+  letter-spacing: 0;
+  text-decoration: underline;
+  text-transform: none;
+  font-size: .9em;
+}
+
+.card__title{
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+.card__info{
+  font-size: .85em;
+}
+
+.card__date{
+  margin-bottom: .3em;
+  font-weight: 700;
+}
+
